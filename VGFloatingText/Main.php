@@ -12,7 +12,7 @@ use pocketmine\math\Vector3;
 use pocketmine\level\particle\FloatingTextParticle;
 use pocketmine\utils\Config;
 
-class Main extends PluginBase implemented Listener{
+class Main extends PluginBase implements Listener{
 
  public function onEnable(){
          $this->getLogger()->info(F::GREEN. "Я включился");
