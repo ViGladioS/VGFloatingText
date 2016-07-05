@@ -44,12 +44,12 @@ class Main extends PluginBase implements Listener{
         $particle[6] = new FloatingTextParticle(new Vector3(-539.5, 7, -118.5), "", $text[6]);
         $particle[7] = new FloatingTextParticle(new Vector3(-539.5, 7, -98.5), "", $text[7]);
         $level->addParticle($particle[0], [$player]);
-		$level->addParticle($particle[1], [$player]);
-		$level->addParticle($particle[2], [$player]);
-		$level->addParticle($particle[3], [$player]);
-		$level->addParticle($particle[4], [$player]);
-		$level->addParticle($particle[5], [$player]);
-		$level->addParticle($particle[6], [$player]);
-		$level->addParticle($particle[7], [$player]);
+        $level->addParticle($particle[1], [$player]);
+	$level->addParticle($particle[2], [$player]);
+	$level->addParticle($particle[3], [$player]);
+	$level->addParticle($particle[4], [$player]);
+	$level->addParticle($particle[5], [$player]);
+	$level->addParticle($particle[6], [$player]);
+	$level->addParticle($particle[7], [$player]);
     }
 }
